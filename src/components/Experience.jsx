@@ -96,16 +96,16 @@ const Experience = () => {
           >
             <button
               className="live-demo flex justify-between 
-              sm:text-[18px] text-[14px] text-timberWolf 
-              font-bold font-beckman items-center py-5 pl-3 pr-3 
-              whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
-              w-[125px] h-[46px] rounded-[10px] bg-jetLight 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-              hover:text-eerieBlack transition duration-[0.2s] 
-              ease-in-out"
+  sm:text-[18px] text-[14px] text-timberWolf 
+  font-bold font-beckman items-center py-5 pl-3 pr-3 
+  whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
+  w-[125px] h-[46px] rounded-[10px] bg-jetLight 
+  sm:mt-[22px] mt-[16px] hover:bg-battleGray 
+  hover:text-eerieBlack transition duration-[0.2s] 
+  ease-in-out"
               onClick={() =>
                 window.open(
-                  "resume link", //paste the link to your resume here
+                  "https://www.dropbox.com/scl/fi/ujrs3zvl5wllbylec5fms/resume.pdf?rlkey=ffz0d0bi9x8rdkzpk9bkuzuvu&st=g04qrx58&dl=1",
                   "_blank"
                 )
               }
@@ -125,7 +125,7 @@ const Experience = () => {
                 src={download}
                 alt="download"
                 className="download-btn sm:w-[26px] sm:h-[26px] 
-                w-[23px] h-[23px] object-contain"
+    w-[23px] h-[23px] object-contain"
               />
             </button>
           </VerticalTimelineElement>
